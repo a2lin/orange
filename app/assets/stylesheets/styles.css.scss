@@ -6,13 +6,13 @@ $orange5: #a64b00;
 
 $navbarBackgroundHighlight: white;
 $navbarBackground: white;
-$navbarText: white;
+$navbarText: $orange3;
 $navbarBrandColor: $orange1;
 $navbarLinkColor: $orange3;
-$navbarLinkColorHover: transparent;
+$navbarLinkColorHover: white;
 $navbarLinkColorActive: white;
 $navbarLinkBackgroundHover: $orange1;
-$navbarLinkBackgroundActive: white;
+$navbarLinkBackgroundActive: $orange1;
 
 @import 'bootstrap';
 
@@ -26,6 +26,10 @@ body{
 
 @import 'bootstrap-responsive';
 
+a{
+	text-shadow: none !important;
+}
+
 .navbar-inner{
 	border: 0;
 	@include box-shadow(none !important);
@@ -33,9 +37,15 @@ body{
 
 .nav{
 	position:relative;
+	li:hover{
+		background-color: $orange1;
+		a:hover{
+			background-color: transparent;
+		}
+	}
 }
 
-.navoffset{
+.navoffset	{
 		position: relative;
 		top: 10px;
 }
@@ -47,7 +57,14 @@ body{
 .hero-unit{
 	h1{
 		position: relative;
-		color: $grayDark;
+		color: white;
 	}
+}
+
+.well{
+	background-color: rgb(10%, 10%, 10%);
+	background-color: rgba(10%, 10%, 10%, 0.3);
+	color: white;
+	border: 0;
 }
 
