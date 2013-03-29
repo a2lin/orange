@@ -13,3 +13,15 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore all documentation files
+doc/
+
+# Ignore swap files
+*.swp
+*~
+
+# Ignore project, DS_Store and idea files
+.project
+.DS_Store
+.idea
