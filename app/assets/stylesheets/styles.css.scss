@@ -1,0 +1,22 @@
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+$navbarText: white;
+$navbarBrandColor: orange;
+$navbarLinkColor: orange;
+
+@import 'bootstrap';
+
+body{
+	padding-top: 60px;
+}
+
+/* responsive functionality must be added after padding so we don't have 60px in 
+	 resp mode. Weird header behavior if added after.
+*/
+
+@import 'bootstrap-responsive';
+
+.navbar-inner{
+	border: 0;
+	@include box-shadow(none !important);
+}
