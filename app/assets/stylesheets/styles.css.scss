@@ -34,7 +34,20 @@ body{
 .nav{
 	position:relative;
 }
+
 .navoffset{
 		position: relative;
 		top: 10px;
+}
+
+.fleximg{
+	max-width: 100%;
+}
+
+.hero-unit{
+	h1{
+		position: relative;
+		color: $grayDark;
 	}
+}
+
