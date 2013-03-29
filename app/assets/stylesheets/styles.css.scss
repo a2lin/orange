@@ -57,14 +57,14 @@ a{
 .hero-unit{
 	h1{
 		position: relative;
-		color: white;
+		color: $orange3;
 	}
 }
 
 .well{
 	background-color: rgb(10%, 10%, 10%);
-	background-color: rgba(10%, 10%, 10%, 0.3);
-	color: white;
+	background-color: rgba(100%, 100%, 100%, 0.6);
+	color: $orange4;
 	border: 0;
 }
 
