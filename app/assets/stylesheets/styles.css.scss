@@ -1,8 +1,18 @@
+$orange1: #ffb273;
+$orange2: #ff9640;
+$orange3: #ff7400;
+$orange4: #bf7130;
+$orange5: #a64b00;
+
 $navbarBackgroundHighlight: white;
 $navbarBackground: white;
 $navbarText: white;
-$navbarBrandColor: orange;
-$navbarLinkColor: orange;
+$navbarBrandColor: $orange1;
+$navbarLinkColor: $orange3;
+$navbarLinkColorHover: transparent;
+$navbarLinkColorActive: white;
+$navbarLinkBackgroundHover: $orange1;
+$navbarLinkBackgroundActive: white;
 
 @import 'bootstrap';
 
@@ -20,3 +30,11 @@ body{
 	border: 0;
 	@include box-shadow(none !important);
 }
+
+.nav{
+	position:relative;
+}
+.navoffset{
+		position: relative;
+		top: 10px;
+	}
