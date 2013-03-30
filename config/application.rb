@@ -60,6 +60,6 @@ module Orange
     config.assets.version = '1.0'
 
     # Required for devise on Heroku
-    config.assets.initilaize_on_precompile = false
+    config.assets.initialize_on_precompile = false
   end
 end
