@@ -1,17 +1,19 @@
 <div class="hero-unit" style="background: url(<%= asset_path 'bigorange.jpg'%>) no-repeat;" >
 	<div class="container-fluid">
-	<div class="span3 well">
-	<h1> Hello! </h1>
-	<p>
-		Some random text here KthxBai
-		<br/>
-		More text here
-
-		<br/>
-		<br/>
-		<%= link_to "Get Started!", root_path, class: "btn btn-primary btn-large" %>
-	</p>
-	<br />
+		<div class="span9 well">
+			<div class="span3">
+				<h1> Hello! </h1>
+				<p>
+					Welcome to Orange!
+					<br />
+					This is the home page for the Orange Project.	
+					<br />
+				</p>
+				<br />
+			</div>
+			<div class="span4 pull-right">
+				<%= render "layouts/signupform" %>
+			</div>	
+		</div>
 	</div>
-</div>
 </div>

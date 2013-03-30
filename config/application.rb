@@ -58,5 +58,8 @@ module Orange
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # Required for devise on Heroku
+    config.assets.initilaize_on_precompile = false
   end
 end
