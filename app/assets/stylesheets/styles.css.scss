@@ -63,11 +63,18 @@ a{
 	}
 }
 .hero-unit{
+
 	.well{
+		box-sizing: border-box;
 		background-color: rgb(10%, 10%, 10%);
 		background-color: rgba(100%, 100%, 100%, 0.6);
 		color: $orange4;
 		border: 0;
+		margin-bottom: 0px;
+		padding: 10px;
+	}
+	.row{
+		margin-left: 10px;
 	}
 }
 
