@@ -1,17 +1,5 @@
-<div class="hero-unit" style="background: url(<%= asset_path 'bigorange.jpg'%>) no-repeat;" >
-		<div class="row well">
-			<div class="span6">
-				<h1> Hello! </h1>
-				<p>
-					Welcome to Orange!
-					<br />
-					This is the home page for the Orange Project.	
-					<br />
-				</p>
-				<br />
-			</div>
-			<div class="span4 pull-right">
-				<%= render "layouts/signupform" %>
-			</div>	
-	</div>
-</div>
+<% if !(user_signed_in?) %>
+	<%= render "pages/homebeforelogin" %>
+<% else %>
+	<%= render "pages/homeafterlogin" %>
+<% end %>

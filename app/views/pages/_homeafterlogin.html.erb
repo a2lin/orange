@@ -1,0 +1,23 @@
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span3">
+			<div class = "home-left">
+				<h4> My Projects </h4>
+					<% @projects.each do |project| %>
+					 &nbsp;[+]	<%= project.description %> | <%= project.name %><br />
+					<% end %>
+			</div>
+		</div>
+		<div class="span6">
+			<div class = "home-ctr">
+				<h4> My Upcoming Tasks </h4>
+			</div>
+		</div>
+		<div class="span3">
+			<div class = "home-rt">
+				<h4> Suggested Projects </h4>
+			</div>
+		</div>
+	</div>
+</div>
+
