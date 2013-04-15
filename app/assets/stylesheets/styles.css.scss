@@ -30,6 +30,7 @@ body{
 
 a{
 	text-shadow: none !important;
+	color: $orange1;
 }
 
 a:hover
@@ -40,6 +41,10 @@ a:hover
 .home a{
 	text-decoration: none;
 	color: black;
+}
+
+.home a:hover{
+	color: orange;
 }
 
 .navbar-inner{

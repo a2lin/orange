@@ -2,9 +2,9 @@
 	<div class="row-fluid">
 		<div class="span3">
 			<div class = "home home-left">
-				<a class= "darklink" href="projects"><h4> My Projects </h4></a>
+				<h4><a class= "darklink" href="projects"> My Projects </a></h4>
 					<% @projects.each do |project| %>
-					<a href= "projects/<%= project.id%>"> &nbsp;[+]	<%= project.description %> | <%= project.name %><br /></a>
+					<a href= "projects/<%= project.id%>"> &nbsp;[+]	<%= project.name %><br /></a>
 					<% end %>
 			</div>
 		</div>
