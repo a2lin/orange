@@ -32,6 +32,16 @@ a{
 	text-shadow: none !important;
 }
 
+a:hover
+{
+	background-color: transparent;
+}
+
+.home a{
+	text-decoration: none;
+	color: black;
+}
+
 .navbar-inner{
 	border: 0;
 	@include box-shadow(none !important);
@@ -58,6 +68,7 @@ h4{
 	border-right: 1px solid;
 	border-left: 1px solid;
 	border-bottom: 1px solid;
+	padding-bottom:5px;
 }
 
 .home-ctr{
@@ -65,6 +76,7 @@ h4{
 	border-left: 1px solid;
 	border-right: 1px solid;
 	border-bottom: 1px solid;
+	padding-bottom: 5px;
 }
 
 .home-rt{
@@ -72,6 +84,15 @@ h4{
 	border-right: 1px solid;
 	border-left: 1px solid;
 	border-bottom: 1px solid;
+	padding-bottom: 5px;
+}
+
+.home-rt-2{
+	border-top: 1px solid;
+	border-right: 1px solid;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	padding-bottom: 5px;
 }
 
 .navoffset	{
