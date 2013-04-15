@@ -30,7 +30,12 @@ body{
 
 a{
 	text-shadow: none !important;
-	color: $orange1;
+	color: $orange3;
+}
+
+a:visited
+{
+	color:$orange3;
 }
 
 a:hover
