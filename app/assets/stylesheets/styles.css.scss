@@ -100,6 +100,16 @@ h4{
 	padding-bottom: 5px;
 }
 
+.gridster{
+	ul li{
+		list-style: none;
+		background-color: $orange3;
+	}
+}
+.middle-rt{
+	border-right: 1px solid;
+}
+
 .navoffset	{
 		position: relative;
 		top: 10px;
@@ -115,6 +125,7 @@ h4{
 		color: $orange3;
 	}
 }
+
 .hero-unit{
 
 	.well{
